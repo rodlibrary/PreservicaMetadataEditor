@@ -1,0 +1,14 @@
+# Preservica credentials - never commit these
+credentials.properties
+
+# Output of each Apply run (backups and logs)
+mods_editor_runs/
+
+# Exports and edited CSVs (the template is tracked)
+mods_export_*.csv
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
